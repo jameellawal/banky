@@ -191,7 +191,7 @@ div{
 
     
     .nav_links{
-        position: absolute;
+        position:fixed;
         right: 0;
         height:93vh;
         background-color: #14213d;
@@ -228,6 +228,9 @@ div{
     .toggle .line3{
         transform: rotate(45deg) translate(-5px, -6px);
         
+    }
+    html{
+        overflow-x: hidden;
     }
     
 }
@@ -269,7 +272,7 @@ div{
     } 
     
     .nav_links{
-        position: absolute;
+        position:fixed;
         right: 0;
         height:93vh;
         background-color: #14213d;

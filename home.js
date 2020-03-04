@@ -1,3 +1,10 @@
+function noscroll(params) {
+  window.scrollTo(0,0)
+}
+window.addEventListener('scroll',noscroll);
+
+
+
 const navslide = () =>{
   const hamburger_menu = document.querySelector(".hamburger_menu");
   const nav = document.querySelector(".nav_links");
