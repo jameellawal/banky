@@ -5,7 +5,6 @@ html{
 body{
     padding: 0;
     margin: 0; 
-    height: 100vh;
 } 
 
 .container{
@@ -15,7 +14,7 @@ body{
 
 header{
     background: #14213D;
-    border-top: 4px solid #fac311;
+    border-top: 4px solid #fca311;
 }
 header::after{
     content: '';
@@ -26,7 +25,7 @@ header::after{
 .logo{
     float: left;
     padding: 10px 25px;
-    color:  rgb(255, 166, 58);
+    color:  #fca311;
 }
 
 nav{
@@ -41,7 +40,7 @@ header a {
 nav li :hover {
     background: #520505;
     font-weight: bolder;
-    color: #fac311
+    color: #fca311
 }
 
 nav ul {
@@ -52,15 +51,14 @@ nav ul {
 
 nav  li {
     display: inline-block;
-    /* margin-left: 70px; */
     padding: 10px 25px;
 }
 
 .container2 {
-    margin-top: 3%; 
-    margin-bottom: 3%;
+    margin: 3% auto;
     border: 2px solid  #14213D;
-    width: 30%;
+    width: 70%;
+    max-width: 350px;
     margin-left: 35%;
     height: 115%;
 }
@@ -83,7 +81,7 @@ input {
 }
 
 button{
-     background: #fac311;
+     background: #fca311;
      border: none;
      height: 35px;
      margin-bottom: 5px;
