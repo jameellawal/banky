@@ -1,7 +1,7 @@
 body{
     padding: 0;
     margin: 0; 
-    /* height: 100vh; */
+    height: 100vh;
 } 
 
 .container{
@@ -59,6 +59,13 @@ nav  li {
     margin-left: 35%;
     height: 350px;
 }
+button{
+    background: #fac311;
+    border: none;
+    height: 35px;
+    margin-bottom: 5px;
+    width: 90%;
+}
 
 form {
     font-size: 20px;
@@ -75,14 +82,6 @@ input {
     margin-bottom: 6%;
     height: 25px;
     width: 90%;
-}
-
-button{
-     background: #fac311;
-     border: none;
-     height: 35px;
-     margin-bottom: 5px;
-     width: 90%;
 }
 
 .hamburger_menu{
@@ -103,6 +102,8 @@ footer{
     margin-bottom: 20px;
 }
 
+
+/* tablets */
 @media screen and (max-width:768px){
     body{
         padding: 0;
@@ -153,4 +154,36 @@ footer{
         transform: rotate(45deg) translate(-5px, -6px);
         
     }
+
+    .container2 {
+        margin-top: 25%;
+        border: 2px solid #14213D;
+        width: 70%;
+        margin-left: 16%;
+        height: 41%;
+    }
+}
+
+
+/* mobile screens */
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+    body{
+        padding: 0;
+        margin: 0; 
+        /* height: 100vh; */
+        background-size: cover;
+        background-position: center;
+        overflow-x: hidden;
+    }
+    .container2 {
+        margin-top: 25%;
+        border: 2px solid #14213D;
+        width: 74%;
+        margin-left: 13%;
+        height: 52%;
+    }
+
+    
+    
 }

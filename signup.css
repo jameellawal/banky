@@ -1,6 +1,4 @@
-html{
-    overflow: hidden;
-}
+
 
 body{
     padding: 0;
@@ -64,6 +62,13 @@ nav  li {
     margin-left: 35%;
     height: 115%;
 }
+button{
+    background: #fac311;
+    border: none;
+    height: 35px;
+    width: 91%;
+    margin-bottom: 5px;
+}
 
 form {
     font-size: 20px;
@@ -80,14 +85,6 @@ input {
     margin-bottom: 6%;
     height: 25px;
     width: 90%;
-}
-
-button{
-     background: #fac311;
-     border: none;
-     height: 35px;
-     margin-bottom: 5px;
-     width: 90%;
 }
 
 .hamburger_menu{
@@ -107,20 +104,16 @@ footer{
     margin-bottom: 20px;
 }
 
-
+/* tablet */
 @media screen and (max-width:768px){
-    html{
-        overflow: hidden;
-    }
     body{
         padding: 0;
         margin: 0; 
         height: 100vh;
-        width: 50%;
+        width: 100%;
         background-size: cover;
         background-position: center;
         overflow-x: hidden;
-        z-index: 0;
     }
 
     .nav_links{
@@ -162,4 +155,51 @@ footer{
         transform: rotate(45deg) translate(-5px, -6px);
         
     }
+
+    .container2 {
+        margin-top: 10%;
+        margin-bottom: 68%;
+        border: 2px solid #14213D;
+        width: 65%;
+        margin-left: 18%;
+        height: 71%;
+    }
+
+    
+    button{
+        background: #fac311;
+        border: none;
+        height: 35px;
+        margin-bottom: 5px;
+        width: 91%;
+    }
+}
+
+
+/* mobile */
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+    
+    .container2 {
+        margin-top: 10%;
+        border: 2px solid #14213D;
+        width: 65%;
+        margin-left: 18%;
+        height: 100%;
+    }
+    
+form {
+    font-size: 16px;
+    margin-bottom: 22px;
+}
+
+
+button{
+    background: #fac311;
+    border: none;
+    height: 35px;
+    margin-bottom: 5px;
+    width: 91%;
+}
+
 }
