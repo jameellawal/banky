@@ -22,7 +22,7 @@ header::after{
 .logo{
     float: left;
     padding: 10px 25px;
-    color:  rgb(255, 166, 58);
+    color:  rgb(252, 163, 17);
 }
 
 nav{
@@ -37,7 +37,7 @@ header a {
 nav li :hover {
     background: #520505;
     font-weight: bolder;
-    color: #fac311
+    color: #fca311
 }
 
 nav ul {
@@ -53,10 +53,10 @@ nav  li {
 }
 
 .container2 {
-    margin-top: 10%; 
+    margin: 10% auto; 
     border: 2px solid  #14213D;
-    width: 30%;
-    margin-left: 35%;
+    width: 70%;
+    max-width: 350px;
     height: 350px;
 }
 button{
@@ -84,6 +84,13 @@ input {
     width: 90%;
 }
 
+button{
+     background: #fca311;
+     border: none;
+     height: 35px;
+     margin-bottom: 5px;
+     width: 90%;
+}
 .hamburger_menu{
     display: none;
 }
