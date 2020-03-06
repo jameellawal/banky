@@ -1,7 +1,7 @@
-function noscroll(params) {
-  window.scrollTo(0,0)
-}
-window.addEventListener('scroll',noscroll);
+// function noscroll(params) {
+//   window.scrollTo(0,0)
+// }
+// window.addEventListener('scroll',noscroll);
 
 
 
