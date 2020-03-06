@@ -170,7 +170,7 @@ div{
         font-size: 1em;
         text-align: center;
         justify-items: center;
-        margin-top: -12px;
+        margin-top: -19px;
     }
 
     .banner p  a {
@@ -234,6 +234,8 @@ div{
     }
     
 }
+
+/* mobile */
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
     body{
@@ -323,13 +325,13 @@ div{
     
     .banner{
         background: #fca311;
-        width: 260px;
+        width: 98%px;
         margin: 0 auto;
-        height: 55px;
+        height: 98%px;
         font-size: 1em;
         text-align: center;
         justify-items: center;
-        margin-top: -15px;
+        margin-top: -11px;
     }
 
     .banner p  a {
