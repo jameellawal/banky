@@ -1,7 +1,7 @@
 body{
     padding: 0;
     margin: 0; 
-    /* height: 100vh; */
+    height: 100vh;
 } 
 
 .container{
@@ -22,7 +22,7 @@ header::after{
 .logo{
     float: left;
     padding: 10px 25px;
-    color:  rgb(255, 166, 58);
+    color:  rgb(252, 163, 17);
 }
 
 nav{
@@ -37,7 +37,7 @@ header a {
 nav li :hover {
     background: #520505;
     font-weight: bolder;
-    color: #fac311
+    color: #fca311
 }
 
 nav ul {
@@ -53,11 +53,18 @@ nav  li {
 }
 
 .container2 {
-    margin-top: 10%; 
+    margin: 10% auto; 
     border: 2px solid  #14213D;
-    width: 30%;
-    margin-left: 35%;
+    width: 70%;
+    max-width: 350px;
     height: 350px;
+}
+button{
+    background: #fac311;
+    border: none;
+    height: 35px;
+    margin-bottom: 5px;
+    width: 90%;
 }
 
 form {
@@ -78,13 +85,12 @@ input {
 }
 
 button{
-     background: #fac311;
+     background: #fca311;
      border: none;
      height: 35px;
      margin-bottom: 5px;
      width: 90%;
 }
-
 .hamburger_menu{
     display: none;
 }
@@ -103,6 +109,8 @@ footer{
     margin-bottom: 20px;
 }
 
+
+/* tablets */
 @media screen and (max-width:768px){
     body{
         padding: 0;
@@ -153,4 +161,36 @@ footer{
         transform: rotate(45deg) translate(-5px, -6px);
         
     }
+
+    .container2 {
+        margin-top: 25%;
+        border: 2px solid #14213D;
+        width: 70%;
+        margin-left: 16%;
+        height: 41%;
+    }
+}
+
+
+/* mobile screens */
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+    body{
+        padding: 0;
+        margin: 0; 
+        /* height: 100vh; */
+        background-size: cover;
+        background-position: center;
+        overflow-x: hidden;
+    }
+    .container2 {
+        margin-top: 25%;
+        border: 2px solid #14213D;
+        width: 74%;
+        margin-left: 13%;
+        height: 52%;
+    }
+
+    
+    
 }
