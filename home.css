@@ -86,24 +86,27 @@ main p{
     width: 280px;
     height: 76px;
     margin-top: 90px;
+    padding: 8px;
 }
 
 
 .banner{
     background: #fca311;
-    width: 260px;
-    margin: 0 auto;
-    height: 55px;
+    width: 280px;
+    height: 100%;
     font-size: 1em;
     text-align: center;
     justify-items: center;
-    margin-top: -15px;
 }
 div{
     display: block;
 }
 #experience{
     padding-top: 15px;
+}
+
+.banner p {
+    margin: 0;
 }
 
 
