@@ -102,7 +102,7 @@ div{
     display: block;
 }
 #experience{
-    padding-top: 15px;
+    padding: 25px;
 }
 
 .banner p {
@@ -165,7 +165,7 @@ div{
         margin: 0 auto;
     }
     #experience{
-        padding-top: 11px;
+        padding: 15px;
     }
     
 
@@ -175,25 +175,29 @@ div{
         background-color: rgba(0, 0, 139, 0);
         border: 1px solid #fca311;
         width: 90%;
-        height: 60px;
         margin-top: 90px;
+        padding: 8px;
     }
 
     .banner{
         background: #fca311;
-        width: 95%;
+        width: 100%;
         margin: 0 auto;
-        height: 80%;
+        height: 100%;
         font-size: 1em;
         text-align: center;
         justify-items: center;
-        margin-top: -19px;
+        
     }
 
     .banner p  a {
         text-decoration: none;
         font-weight: bold;
         color: #000000;
+    }
+
+    p{
+        margin: 0;
     }
 
     main p{
@@ -274,9 +278,20 @@ div{
     }
 
     #experience{
-        padding-top: 15px;
+        padding: 15px;
     }
     
+
+    .banner {
+    background: #fca311;
+    width: 93%;
+    margin: 0 auto;
+    height: 73%;
+    font-size: 1em;
+    text-align: center;
+    justify-items: center;
+    padding: 7px;
+}
     
     .container{
         height: 6vh;
@@ -334,25 +349,24 @@ div{
         
     } */
 
-    banner_wrapper {
-   
+    .banner_wrapper {
         background-color: rgba(0, 0, 139, 0);
         border: 1px solid #fca311;
-        width: 280px;
-        height: 96px;
+        width: 85%;
+        height: 50px;
         margin-top: 90px;
     }
     
     
     .banner{
         background: #fca311;
-        width: 98%px;
+        width: 100%;
         margin: 0 auto;
-        height: 98%px;
+        height: 100%;
         font-size: 1em;
         text-align: center;
         justify-items: center;
-        margin-top: -11px;
+        padding: 0px;
     }
 
     .banner p  a {
