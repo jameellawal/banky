@@ -36,7 +36,12 @@ header {
     line-height: 2.5rem;    
 }
 
+.web-nav_item{
+    width: 100%;
+}
+
 .web-nav_item a{
+    display: block;
     padding: 10px 5px 10px 14px;
     text-decoration: none;
     color: white;
@@ -45,8 +50,7 @@ header {
 
 .web-nav_item :hover{
     color: #fca311;
-    width: 4px; 
-    background-color: transparent;
+    background-color: #101A30;
     border-left: 5px solid 
 }
 
@@ -67,4 +71,13 @@ p{
     color: #14213D;
     font-weight: bolder;
     font-size: 22px;
+}
+
+.email , .number , .role {
+    color: #555;
+}
+
+.account-overview {
+    padding: 44px 0 22px 25px ;
+    color: #14213D;
 }
