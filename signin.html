@@ -32,16 +32,18 @@
         <main class="signin-page"></main>
         <section class="container2">
             <div class="main">
-                <form>
-                    EMAIL <br><input type="email" name="emailaddress" placeholder="email@domain.com" required><br>
-                     PASSWORD<br> <input type="password" name="password" placeholder="Enter Password" required><br>
+                <form  id="signin_form" action="dashboard.html" method="GET">
+                    EMAIL <br><input id="email" type="email" name="emailaddress" placeholder="email@domain.com" ><br>
+                     PASSWORD<br> <input id="password" type="password" name="password" placeholder="Enter Password" ><br>
+                     <label id="blank_input" style="color: red; font-size: 2px; visibility: hidden;" >invalid Username or password</label><br>
+                     <button  id="login_btn">Sign In</button>
                 </form>
-                <button class="login_btn">Sign In</button>
                 <footer>
                     <p>Don't have an account? <a href="signup.html">Sign Up</a> for a user account</p>
                 </footer>
             </div>
         </div>
         <script type="text/javascript" src="home.js"></script>
+        <script type="text/javascript" src="signin.js"></script>
 </body>
 </html>
